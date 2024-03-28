@@ -1,0 +1,19 @@
+{
+  "name": "prueba-tecnica-euruspro",
+  "version": "1.0.0",
+  "description": "Prueba de medicion de conocmiemintos en el manejo basico de funciones y operadores con JavaScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/euruspro/fn-test-javascript.git"
+  },
+  "author": "adrian.higuita@eurus.pro",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/euruspro/fn-test-javascript/issues"
+  },
+  "homepage": "https://github.com/euruspro/fn-test-javascript#readme"
+}
