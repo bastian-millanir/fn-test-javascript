@@ -22,3 +22,14 @@ function initial() {
 	 */
 
 }
+
+
+
+edad = calculateAge(initial.options.birthday);
+
+
+
+function message(name, lastName,age, gender) {
+    return `El paciente ${name} ${lastName}, tienes ${age.age} años y ${age.months} meses y es de género ${gender}. El paciente es ${age.age} de edad.`;
+}
+
