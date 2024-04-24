@@ -19,3 +19,5 @@ function calculateAge(birthdayString) {
         months: months
     };
 }
+
+module.exports = calculateAge;

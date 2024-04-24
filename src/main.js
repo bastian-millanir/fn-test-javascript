@@ -1,3 +1,5 @@
+const mensajePaciente = require("./mensajePaciente");
+
 function initial() {
 	console.log('Iniciando la prueba de concepto');
 
@@ -7,6 +9,7 @@ function initial() {
 		birthday: '1989-10-01',
 		gender: 'M',
 	}
+	return options;
 
 	/**
 	 * Construir una función que reciba el objeto "options"
@@ -22,14 +25,7 @@ function initial() {
 	 */
 
 }
+module.exports = initial;
 
-
-
-edad = calculateAge(initial.options.birthday);
-
-
-
-function message(name, lastName,age, gender) {
-    return `El paciente ${name} ${lastName}, tienes ${age.age} años y ${age.months} meses y es de género ${gender}. El paciente es ${age.age} de edad.`;
-}
-
+paciente1 = mensajePaciente(initial());
+console.log(paciente1);
